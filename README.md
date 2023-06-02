@@ -1,0 +1,1 @@
+# Dummy Magento 2 module

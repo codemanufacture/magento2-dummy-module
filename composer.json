@@ -1,0 +1,36 @@
+{
+    "name": "codemanufacture/dummy-magento-module",
+    "description": "Dummy magento module for test purposes",
+    "type": "magento2-module",
+    "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codemanufacture\\DummyMagentoModule\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Piotr Kwiecinski",
+            "email": "piotr.kwiecinski@codemanufacture.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "magento/framework": "~103"
+    },
+    "require-dev": {
+        "magento/magento-coding-standard": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ]
+}
