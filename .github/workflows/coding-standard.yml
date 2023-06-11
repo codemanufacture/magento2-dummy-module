@@ -2,6 +2,8 @@ name: "Magento 2 Coding Standard"
 on:
   pull_request:
   push:
+    branches:
+      - main
 jobs:
   coding-standard:
     runs-on: ubuntu-latest
