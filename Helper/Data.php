@@ -8,7 +8,6 @@ class Data
 {
     public function getMessage(): string
     {
-         echo "2";
            return "Misaligned line";
     }
 }
